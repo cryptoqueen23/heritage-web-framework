@@ -1,0 +1,17 @@
+# Secrets and local runtime files
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+dist/
+build/
+.DS_Store
+*.log
+# WordPress runtime and sensitive uploads/backups
+wp-config.php
+wp-content/uploads/
+*.sql
+*.sql.gz
+*.wpress
+*.zip
